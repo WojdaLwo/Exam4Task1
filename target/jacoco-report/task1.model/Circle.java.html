@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="pl"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Circle.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">ExamMavenJunitMockitoJacoco</a> &gt; <a href="index.source.html" class="el_package">task1.model</a> &gt; <span class="el_source">Circle.java</span></div><h1>Circle.java</h1><pre class="source lang-java linenums">package task1.model;
+
+import task1.exceptions.WrongDimensionException;
+import task1.service.CircleService;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Circle extends Shape {
+
+    private int radius;
+<span class="fc" id="L12">    private static List&lt;Circle&gt; extension = new ArrayList&lt;&gt;();</span>
+
+<span class="fc" id="L14">    public Circle() {</span>
+<span class="fc" id="L15">    }</span>
+
+    public Circle(int radius) {
+<span class="fc" id="L18">        super(&quot;circle&quot;);</span>
+<span class="fc bfc" id="L19" title="All 2 branches covered.">        if (radius &lt;= 0) {</span>
+<span class="fc" id="L20">            throw new WrongDimensionException();</span>
+        }
+<span class="fc" id="L22">        this.radius = radius;</span>
+<span class="fc" id="L23">        extension.add(this);</span>
+<span class="fc" id="L24">        getShapes().add(this);</span>
+<span class="fc" id="L25">    }</span>
+
+    public int getRadius() {
+<span class="fc" id="L28">        return radius;</span>
+    }
+
+    public static List&lt;Circle&gt; getExtension() {
+<span class="nc" id="L32">        return extension;</span>
+    }
+
+    @Override
+    public String toString() {
+<span class="nc" id="L37">        return &quot;Circle with radius=&quot; + radius;</span>
+    }
+
+    @Override
+    public double countArea() {
+<span class="fc" id="L42">        return new CircleService().countArea(this);</span>
+    }
+
+    @Override
+    public double countPerimeter() {
+<span class="fc" id="L47">        return new CircleService().countPerimeter(this);</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.7.202105040129</span></div></body></html>

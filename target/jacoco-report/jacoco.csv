@@ -1,0 +1,8 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+ExamMavenJunitMockitoJacoco,task1.service,CircleService,0,33,0,4,0,7,0,5,0,3
+ExamMavenJunitMockitoJacoco,task1.service,SquareService,0,28,0,4,0,7,0,5,0,3
+ExamMavenJunitMockitoJacoco,task1.service,ShapeService,0,73,0,0,0,20,0,5,0,5
+ExamMavenJunitMockitoJacoco,task1.service,RectangleService,0,31,0,4,0,7,0,5,0,3
+ExamMavenJunitMockitoJacoco,task1.model,Square,6,44,0,2,2,13,2,7,2,6
+ExamMavenJunitMockitoJacoco,task1.model,Rectangle,8,52,0,4,2,15,2,9,2,7
+ExamMavenJunitMockitoJacoco,task1.model,Circle,6,44,0,2,2,13,2,7,2,6

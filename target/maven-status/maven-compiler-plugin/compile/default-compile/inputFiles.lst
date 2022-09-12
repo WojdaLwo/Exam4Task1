@@ -1,0 +1,15 @@
+D:\programowanie\workspace\ExamMavenJunitMockitoJacoco\src\main\java\task1\model\Rectangle.java
+D:\programowanie\workspace\ExamMavenJunitMockitoJacoco\src\main\java\task1\Main.java
+D:\programowanie\workspace\ExamMavenJunitMockitoJacoco\src\main\java\task1\model\Square.java
+D:\programowanie\workspace\ExamMavenJunitMockitoJacoco\src\main\java\task1\model\Circle.java
+D:\programowanie\workspace\ExamMavenJunitMockitoJacoco\src\main\java\task1\exceptions\NoMaxAreaException.java
+D:\programowanie\workspace\ExamMavenJunitMockitoJacoco\src\main\java\task1\exceptions\NoMaxPerimeterException.java
+D:\programowanie\workspace\ExamMavenJunitMockitoJacoco\src\main\java\task1\service\RectangleService.java
+D:\programowanie\workspace\ExamMavenJunitMockitoJacoco\src\main\java\task1\interfaces\Calculations.java
+D:\programowanie\workspace\ExamMavenJunitMockitoJacoco\src\main\java\task1\exceptions\WrongDimensionException.java
+D:\programowanie\workspace\ExamMavenJunitMockitoJacoco\src\main\java\task1\model\Shape.java
+D:\programowanie\workspace\ExamMavenJunitMockitoJacoco\src\main\java\task1\service\CircleService.java
+D:\programowanie\workspace\ExamMavenJunitMockitoJacoco\src\main\java\task1\exceptions\NoShapeExptection.java
+D:\programowanie\workspace\ExamMavenJunitMockitoJacoco\src\main\java\task1\service\SquareService.java
+D:\programowanie\workspace\ExamMavenJunitMockitoJacoco\src\main\java\task1\service\ShapeService.java
+D:\programowanie\workspace\ExamMavenJunitMockitoJacoco\src\main\java\task1\exceptions\NullListOfFiguresException.java

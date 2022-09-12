@@ -1,0 +1,15 @@
+task1\model\Circle.class
+task1\service\RectangleService.class
+task1\exceptions\WrongDimensionException.class
+task1\service\ShapeService.class
+task1\service\CircleService.class
+task1\interfaces\Calculations.class
+task1\service\SquareService.class
+task1\exceptions\NoMaxPerimeterException.class
+task1\model\Shape.class
+task1\model\Square.class
+task1\exceptions\NoShapeExptection.class
+task1\model\Rectangle.class
+task1\exceptions\NoMaxAreaException.class
+task1\Main.class
+task1\exceptions\NullListOfFiguresException.class
